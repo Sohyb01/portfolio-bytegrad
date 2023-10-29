@@ -66,6 +66,7 @@ export const projectsData = [
       "A project that showcases multiple cars to rent, using data & images pulled from an external API. The project also includes filtering functions.",
     tags: ["React", "Next.js", "Tailwind", "APIs", "TypeScript"],
     imageUrl: amphionImg,
+    projectUrl: "https://car-hub-gilt-gamma.vercel.app/",
   },
   {
     title: "Amphion",
@@ -73,6 +74,7 @@ export const projectsData = [
       "An original project where users can browse & filter through a selection of headphones, filter & add to cart, with paypal checkout",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Paypal"],
     imageUrl: carhubImg,
+    projectUrl: "https://amphion-x8zv.vercel.app/",
   },
 ] as const;
 
