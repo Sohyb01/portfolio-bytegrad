@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import homelyImg from "@/public/Project_4.jpg";
 import amphionImg from "@/public/Project_2.jpg";
 import carhubImg from "@/public/Project_1.jpg";
 
@@ -61,10 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Homely",
+    description:
+      "A landing page for a Web Design Agency which targets Home Renovator & Contractor businesses, designed and developed from scratch.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "TypeScript", "Figma"],
+    imageUrl: homelyImg,
+    projectUrl: "https://homely-wine.vercel.app/",
+  },
+  {
     title: "CarHub",
     description:
       "A project that showcases multiple cars to rent, using data & images pulled from an external API. The project also includes filtering functions.",
-    tags: ["React", "Next.js", "Tailwind", "APIs", "TypeScript"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIs", "TypeScript"],
     imageUrl: amphionImg,
     projectUrl: "https://car-hub-gilt-gamma.vercel.app/",
   },
@@ -72,7 +81,7 @@ export const projectsData = [
     title: "Amphion",
     description:
       "An original project where users can browse & filter through a selection of headphones, filter & add to cart, with paypal checkout",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Paypal"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIS", "Paypal"],
     imageUrl: carhubImg,
     projectUrl: "https://amphion-x8zv.vercel.app/",
   },
