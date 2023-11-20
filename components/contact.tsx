@@ -33,10 +33,22 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:sohyb0155@gmail.com">
+        <a
+          target="_blank"
+          className="underline"
+          href="mailto:sohyb0155@gmail.com"
+        >
           sohyb0155@gmail.com
-        </a>{" "}
-        or through this form.
+        </a>
+        ,{" "}
+        <a
+          target="_blank"
+          className="underline"
+          href="https://wa.me/201023717157"
+        >
+          Whatsapp
+        </a>
+        , or through this form.
       </p>
 
       <form
