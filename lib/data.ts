@@ -97,8 +97,10 @@ export const skillsData = [
   "Git",
   "Github",
   "Prisma",
-  "Figma",
   "Tailwind",
   "PostgreSQL",
   "Framer Motion",
+  "Figma",
+  "UI/UX",
+  "Python",
 ] as const;
