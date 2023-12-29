@@ -6,6 +6,7 @@ import pesImg from "@/public/Project_5.jpg";
 import homelyImg from "@/public/Project_4.jpg";
 import amphionImg from "@/public/Project_2.jpg";
 import carhubImg from "@/public/Project_1.jpg";
+import alphasweepsImg from "@/public/Project_6.jpg";
 
 export const links = [
   {
@@ -63,6 +64,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "AlphaSweeps",
+    description:
+      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Shadcn-UI",
+      "Stripe",
+      "Framer-Motion",
+    ],
+    imageUrl: alphasweepsImg,
+    projectUrl: "https://alphasweeps.com/",
+  },
+  {
     title: "Programmer's Elite School",
     description:
       "PES is an accredited educational company which aims to teach computer science & artificial intelligence technologies to new generations",
@@ -70,14 +87,14 @@ export const projectsData = [
     imageUrl: pesImg,
     projectUrl: "https://pes-edu.com/",
   },
-  {
-    title: "Homely",
-    description:
-      "A landing page for a Web Design Agency which targets Home Renovator & Contractor businesses, designed and developed from scratch.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "APIs"],
-    imageUrl: homelyImg,
-    projectUrl: "https://homely-wine.vercel.app/",
-  },
+  // {
+  //   title: "Homely",
+  //   description:
+  //     "A landing page for a Web Design Agency which targets Home Renovator & Contractor businesses, designed and developed from scratch.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "APIs"],
+  //   imageUrl: homelyImg,
+  //   projectUrl: "https://homely-wine.vercel.app/",
+  // },
   {
     title: "CarHub",
     description:
