@@ -24,13 +24,13 @@ export default function About() {
         to pursue my passion for programming. I immersed myself into learning{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        delivery of a high-quality product. I{" "}
+        delivery of high-quality products. I{" "}
         <span className="underline">love</span> the feeling of being able to
         provide value to others. My core stack is{" "}
-        <span className="font-medium">React and Next.js</span>. I am also
-        familiar with TypeScript and Prisma. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">position</span> as a software developer.
+        <span className="font-medium">React and Next.js</span>. I also use
+        TypeScript and Prisma. I am always looking to learn new technologies. I
+        am always looking for <span className="font-medium">new projects</span>{" "}
+        to create.
       </p>
 
       <p>
