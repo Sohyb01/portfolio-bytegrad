@@ -44,7 +44,7 @@ export default function Contact() {
         <a
           target="_blank"
           className="underline"
-          href="https://wa.me/201023717157"
+          href="https://wa.me/27772584065"
         >
           Whatsapp
         </a>

@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "University Degree",
     location: "KSU - Egypt",
     description:
-      "I immersed myself in Web Development throughout my university education.",
+      "I immersed myself in Web Design & Development throughout my university education.",
     icon: React.createElement(LuGraduationCap),
     date: "2019-2023",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Front-End Instructor",
     location: "Alexandria, Egypt",
     description:
-      "I shared my experience with students of Programmer's Elite School. I developed curricula and taught sessions to children and university students.",
+      "I shared my knowledge with students of Programmer's Elite School. I developed curricula and taught sessions to children and university students.",
     icon: React.createElement(CgWorkAlt),
     date: "2022-2023",
   },
@@ -58,15 +58,31 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Levare Studio",
+    description:
+      "My Freelance Business Website where I do Brand Strategy & Design for Companies",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "Resend"],
+    imageUrl: amphionImg,
+    projectUrl: "https://levarestudio.com/",
+  },
+  {
+    title: "Programmer's Elite School",
+    description:
+      "An educational company in Alexandria, Egypt which teaches Programming, Robotics, and AI to kids",
+    tags: ["React", "Next.js", "TypeScript", "Prisma", "Tailwind", "Figma"],
+    imageUrl: pesImg,
+    projectUrl: "https://pes-edu.com/",
+  },
+  {
     title: "AlphaSweeps",
     description:
-      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe.",
+      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe. (Discontinued)",
     tags: [
       "React",
       "Next.js",
@@ -79,14 +95,6 @@ export const projectsData = [
     imageUrl: alphasweepsImg,
     projectUrl: "https://alphasweeps.com/",
   },
-  {
-    title: "Programmer's Elite School",
-    description:
-      "PES is an accredited educational company which aims to teach computer science & artificial intelligence technologies to new generations",
-    tags: ["React", "Next.js", "TypeScript", "Prisma", "Tailwind", "Figma"],
-    imageUrl: pesImg,
-    projectUrl: "https://pes-edu.com/",
-  },
   // {
   //   title: "Homely",
   //   description:
@@ -95,25 +103,20 @@ export const projectsData = [
   //   imageUrl: homelyImg,
   //   projectUrl: "https://homely-wine.vercel.app/",
   // },
-  {
-    title: "CarHub",
-    description:
-      "A project that showcases multiple cars to rent, using data & images pulled from an external API. The project also includes filtering functions.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIs"],
-    imageUrl: amphionImg,
-    projectUrl: "https://car-hub-gilt-gamma.vercel.app/",
-  },
-  {
-    title: "Amphion",
-    description:
-      "An original project where users can browse & filter through a selection of headphones, filter & add to cart, with paypal checkout",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIs", "Paypal"],
-    imageUrl: carhubImg,
-    projectUrl: "https://amphion-x8zv.vercel.app/",
-  },
+  // {
+  //   title: "Amphion",
+  //   description:
+  //     "An original project where users can browse & filter through a selection of headphones, filter & add to cart, with paypal checkout",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIs", "Paypal"],
+  //   imageUrl: carhubImg,
+  //   projectUrl: "https://amphion-x8zv.vercel.app/",
+  // },
 ] as const;
 
 export const skillsData = [
+  "Brand Strategy",
+  "Brand Design",
+  "Copywriting",
   "HTML",
   "CSS",
   "JavaScript",
@@ -124,10 +127,10 @@ export const skillsData = [
   "Github",
   "Prisma",
   "Tailwind",
+  "AI Tools",
   "SQL",
   "PostgreSQL",
   "Framer Motion",
   "Figma",
   "UI/UX",
-  "Python",
 ] as const;

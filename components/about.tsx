@@ -27,21 +27,21 @@ export default function About() {
         delivery of high-quality products. I{" "}
         <span className="underline">love</span> the feeling of being able to
         provide value to others. My core stack is{" "}
-        <span className="font-medium">React and Next.js</span>. I also use
-        TypeScript and Prisma. I am always looking to learn new technologies. I
-        am always looking for <span className="font-medium">new projects</span>{" "}
-        to create.
+        <span className="font-medium">React with Next.js 14</span>. I also use
+        TypeScript, Tailwind, Prisma, Supabase, and Shadcn-ui. I also do brand
+        design & strategy, and I am always looking to learn new skills. I am
+        always looking for <span className="font-medium">new projects</span> to
+        create.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy
-        weightlifting, business education, and playing chess. I also enjoy{" "}
+        <span className="italic">When I'm not coding or designing</span>, I
+        enjoy weightlifting, business education, and playing chess. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">
-          business, entrepreneurship, and self development
+          business, entrepreneurship, video editing, and social media marketing.
         </span>
-        . I'm also learning how to do graphic design.
       </p>
     </motion.section>
   );
