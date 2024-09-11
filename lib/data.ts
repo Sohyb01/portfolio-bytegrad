@@ -38,7 +38,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "University Degree",
-    location: "KSU - Egypt",
+    location: "KSU",
     description:
       "I immersed myself in Web Design & Development throughout my university education.",
     icon: React.createElement(LuGraduationCap),
@@ -46,15 +46,15 @@ export const experiencesData = [
   },
   {
     title: "Front-End Instructor",
-    location: "Alexandria, Egypt",
+    location: "Alexandria, EG",
     description:
       "I shared my knowledge with students of Programmer's Elite School. I developed curricula and taught sessions to children and university students.",
     icon: React.createElement(CgWorkAlt),
     date: "2022-2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Alexandria, Egypt",
+    title: "Brand & Web Designer, Full-Stack Developer",
+    location: "Johannesburg, SA",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
@@ -64,17 +64,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Levare Studio",
-    description:
-      "My Freelance Business Website where I do Brand Strategy & Design for Companies",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "Resend"],
-    imageUrl: amphionImg,
-    projectUrl: "https://levarestudio.com/",
-  },
-  {
     title: "Programmer's Elite School",
     description:
-      "An educational company in Alexandria, Egypt which teaches Programming, Robotics, and AI to kids",
+      "An educational company in Alexandria, EG. They teach programming, robotics, and AI to kids and university students",
     tags: ["React", "Next.js", "TypeScript", "Prisma", "Tailwind", "Figma"],
     imageUrl: pesImg,
     projectUrl: "https://pes-edu.com/",
@@ -94,6 +86,14 @@ export const projectsData = [
     ],
     imageUrl: alphasweepsImg,
     projectUrl: "https://alphasweeps.com/",
+  },
+  {
+    title: "Levare Studio",
+    description:
+      "My Business Website where I do Brand Strategy & Design for my clients",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "Resend"],
+    imageUrl: amphionImg,
+    projectUrl: "https://levarestudio.com/",
   },
   // {
   //   title: "Homely",
