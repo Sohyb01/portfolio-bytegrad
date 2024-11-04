@@ -72,22 +72,6 @@ export const projectsData = [
     projectUrl: "https://pes-edu.com/",
   },
   {
-    title: "AlphaSweeps",
-    description:
-      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe. (Discontinued)",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Prisma",
-      "Shadcn-UI",
-      "Stripe",
-      "Framer-Motion",
-    ],
-    imageUrl: alphasweepsImg,
-    projectUrl: "https://alphasweeps.com/",
-  },
-  {
     title: "Dalia Farah Scenography",
     description:
       "Portfolio website to display the work of Scenographer & Fine Arts Professor, Dr Dalia Farah",
@@ -103,22 +87,22 @@ export const projectsData = [
     imageUrl: amphionImg,
     projectUrl: "https://levarestudio.com/",
   },
-  // {
-  //   title: "Homely",
-  //   description:
-  //     "A landing page for a Web Design Agency which targets Home Renovator & Contractor businesses, designed and developed from scratch.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "APIs"],
-  //   imageUrl: homelyImg,
-  //   projectUrl: "https://homely-wine.vercel.app/",
-  // },
-  // {
-  //   title: "Amphion",
-  //   description:
-  //     "An original project where users can browse & filter through a selection of headphones, filter & add to cart, with paypal checkout",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "APIs", "Paypal"],
-  //   imageUrl: carhubImg,
-  //   projectUrl: "https://amphion-x8zv.vercel.app/",
-  // },
+  {
+    title: "AlphaSweeps.com (Discontinued)",
+    description:
+      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Shadcn-UI",
+      "Stripe",
+      "Framer-Motion",
+    ],
+    imageUrl: alphasweepsImg,
+    projectUrl: "#",
+  },
 ] as const;
 
 export const skillsData = [
