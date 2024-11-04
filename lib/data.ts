@@ -88,9 +88,17 @@ export const projectsData = [
     projectUrl: "https://alphasweeps.com/",
   },
   {
-    title: "Levare Studio",
+    title: "Dalia Farah Scenography",
     description:
-      "My Business Website where I do Brand Strategy & Design for my clients",
+      "Portfolio website to display the work of Scenographer & Fine Arts Professor, Dr Dalia Farah",
+    tags: ["React", "Next.js", "TypeScript", "Shadcn-UI", "MDX Blog", "Figma"],
+    imageUrl: "/Project_7.png",
+    projectUrl: "https://www.dalia-farah.com/",
+  },
+  {
+    title: "Levare Studio (Work in progress)",
+    description:
+      "My Business Website where I do Brand Strategy & Design for my clients - Work in progress",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "Resend"],
     imageUrl: amphionImg,
     projectUrl: "https://levarestudio.com/",
