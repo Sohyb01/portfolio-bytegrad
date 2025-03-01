@@ -3,10 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pesImg from "@/public/Project_5.jpg";
-import homelyImg from "@/public/Project_4.jpg";
+import travelnileImg from "@/public/Project_8.png";
 import amphionImg from "@/public/Project_2.jpg";
-import carhubImg from "@/public/Project_1.jpg";
-import alphasweepsImg from "@/public/Project_6.jpg";
+import dfscenographyImg from "@/public/Project_7.png";
 
 export const links = [
   {
@@ -42,7 +41,7 @@ export const experiencesData = [
     description:
       "I immersed myself in Web Design & Development throughout my university education.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019-2023",
+    date: "2019-2022",
   },
   {
     title: "Front-End Instructor",
@@ -53,10 +52,10 @@ export const experiencesData = [
     date: "2022-2023",
   },
   {
-    title: "Brand & Web Designer, Full-Stack Developer",
+    title: "Full-Stack Developer, Brand Designer",
     location: "Johannesburg, SA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Drizzle, I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -72,56 +71,45 @@ export const projectsData = [
     projectUrl: "https://pes-edu.com/",
   },
   {
-    title: "Dalia Farah Scenography",
-    description:
-      "Portfolio website to display the work of Scenographer & Fine Arts Professor, Dr Dalia Farah",
-    tags: ["React", "Next.js", "TypeScript", "Shadcn-UI", "MDX Blog", "Figma"],
-    imageUrl: "/Project_7.png",
-    projectUrl: "https://www.dalia-farah.com/",
-  },
-  {
     title: "Levare Studio (Work in progress)",
     description:
       "My Business Website where I do Brand Strategy & Design for my clients - Work in progress",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Figma", "Resend"],
     imageUrl: amphionImg,
-    projectUrl: "https://levarestudio.com/",
+    projectUrl: "https://levare-studio.vercel.app/",
   },
   {
-    title: "AlphaSweeps.com (Discontinued)",
+    title: "Dalia Farah Scenography",
     description:
-      "An Options Data Streaming Service. Complete with Authentication and Payments using Stripe.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Prisma",
-      "Shadcn-UI",
-      "Stripe",
-      "Framer-Motion",
-    ],
-    imageUrl: alphasweepsImg,
-    projectUrl: "#",
+      "Portfolio website to display the work of Scenographer & Fine Arts Professor, Dr Dalia Farah",
+    tags: ["React", "Next.js", "TypeScript", "Shadcn-UI", "MDX Blog", "Figma"],
+    imageUrl: dfscenographyImg,
+    projectUrl: "https://www.dalia-farah.com/",
+  },
+  {
+    title: "TravelNile (Work in progress)",
+    description:
+      "Branding & Development Project for a TravelNile - a Tourism Company that specializes in Authentic Egyptian Trips & Tours",
+    tags: ["Figma", "TypeScript", "Next.js", "Tailwind", "Figma", "Drizzle"],
+    imageUrl: travelnileImg,
+    projectUrl:
+      "https://www.figma.com/proto/Ec3IjB4zSCUsGT4f4DkGj1/TravelNile-Web-Design---shadcn?node-id=309-67&t=0RKpDwEI4kJ83CEU-1",
   },
 ] as const;
 
 export const skillsData = [
-  "Brand Strategy",
-  "Brand Design",
-  "Copywriting",
   "HTML",
   "CSS",
-  "JavaScript",
   "TypeScript",
+  "Copywriting",
   "React",
   "Next.js",
   "Git",
-  "Github",
+  "Drizzle",
   "Prisma",
   "Tailwind",
-  "AI Tools",
+  "Shadcn-UI",
   "SQL",
-  "PostgreSQL",
   "Framer Motion",
   "Figma",
   "UI/UX",

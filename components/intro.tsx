@@ -66,8 +66,8 @@ export default function Intro() {
         <span className="font-bold">
           Designing & Developing Effective Websites
         </span>{" "}
-        for businesses or individuals. I also do{" "}
-        <span className="underline">Brand Design & Brand Strategy</span>
+        for businesses or individuals, using{" "}
+        <span className="underline">the most modern tools.</span>
       </motion.h1>
 
       <motion.div
