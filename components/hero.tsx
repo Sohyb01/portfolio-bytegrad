@@ -20,14 +20,14 @@ export function Hero() {
       className="relative h-[95vh] w-full overflow-hidden bg-[#050505]"
     >
       {/* 3D Sphere Background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 max-md:opacity-80 max-md">
         <SentientSphere />
       </div>
 
       {/* Typography Overlay */}
       <motion.div
         style={{ opacity, scale }}
-        className="relative z-10 h-full flex flex-col justify-between p-8 md:p-12 md:px-12 md:py-20"
+        className="relative z-10 h-full flex flex-col justify-between p-4 max-md:py-24 md:p-12 md:px-12 md:py-20"
       >
         {/* Top Left */}
         <motion.div
@@ -100,7 +100,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+        className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-10"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
@@ -112,9 +112,9 @@ export function Hero() {
           className="flex flex-col items-center gap-2"
         >
           <span className="font-mono text-[10px] tracking-widest text-muted-foreground uppercase">
-            Scroll
+            SCROLL
           </span>
-          <div className="w-px h-8 bg-gradient-to-b from-white/50 to-transparent" />
+          <div className="w-px h-8 bg-linear-to-b from-white/50 to-transparent" />
         </motion.div>
       </motion.div>
     </section>

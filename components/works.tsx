@@ -274,11 +274,11 @@ export function Works() {
             >
               {/* Project content */}
               <div className="flex flex-col items-start justify-start gap-4 pt-4 px-8 pb-10 text-start text-3xl text-pretty md:text-4xl lg:px-12 lg:text-5xl">
-                <div className="w-full mx-auto max-w-75 md:max-w-lg lg:max-w-xl border-border border-2 border-solid aspect-video">
+                <div className="w-full mx-auto lg:max-w-2xl aspect-video overflow-visible">
                   {isDialogPreviewVideo ? (
                     <video
                       src={dialogPreviewSrc}
-                      className="h-auto w-full object-cover"
+                      className="w-full aspect-video object-cover border-border border-2 border-solid"
                       autoPlay
                       muted
                       loop
@@ -289,11 +289,11 @@ export function Works() {
                     <img
                       src={dialogPreviewSrc}
                       alt={`${projectDialogOpen.title} project preview`}
-                      className="h-auto w-full object-cover"
+                      className="w-full aspect-video object-cover border-border border-2 border-solid"
                     />
                   )}
                 </div>
-                <p className="text-muted-foreground italic text-2xl md:text-3xl lg:text-4xl pt-2">
+                <p className="text-muted-foreground italic text-xl md:text-2xl lg:text-3xl pt-2 md:pt-4">
                   About this project
                 </p>
                 <TextEffect
@@ -303,6 +303,7 @@ export function Works() {
                   speedReveal={2.4}
                   speedSegment={1.8}
                   onAnimationComplete={() => setDialogTagsVisible(true)}
+                  className="text-2xl md:text-2xl lg:text-3xl"
                 >
                   {projectDialogOpen.description}
                 </TextEffect>

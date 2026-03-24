@@ -11,15 +11,17 @@ export function Footer() {
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
-      const hours = now.getHours().toString().padStart(2, "0");
-      const minutes = now.getMinutes().toString().padStart(2, "0");
-      const seconds = now.getSeconds().toString().padStart(2, "0");
-      const milliseconds = now.getMilliseconds().toString().padStart(3, "0");
-      setTime(`${hours}:${minutes}:${seconds}.${milliseconds}`);
+      const utcMs = now.getTime() + now.getTimezoneOffset() * 60_000;
+      const gmtPlus2 = new Date(utcMs + 2 * 60 * 60_000);
+
+      const hours = gmtPlus2.getHours().toString().padStart(2, "0");
+      const minutes = gmtPlus2.getMinutes().toString().padStart(2, "0");
+      const seconds = gmtPlus2.getSeconds().toString().padStart(2, "0");
+      setTime(`${hours}:${minutes}:${seconds}`);
     };
 
     updateTime();
-    const interval = setInterval(updateTime, 10);
+    const interval = setInterval(updateTime, 1000);
     return () => clearInterval(interval);
   }, []);
 
@@ -84,7 +86,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Local Time */}
           <div className="font-mono text-xs tracking-widest text-muted-foreground">
-            <span className="mr-2">LOCAL TIME</span>
+            <span className="mr-2">GMT+2 TIME</span>
             <span className="text-white tabular-nums">{time}</span>
           </div>
 
