@@ -86,7 +86,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Local Time */}
           <div className="font-mono text-xs tracking-widest text-muted-foreground">
-            <span className="mr-2">GMT+2 TIME</span>
+            <span className="mr-2">LOCAL TIME</span>
             <span className="text-white tabular-nums">{time}</span>
           </div>
 
