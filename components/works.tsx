@@ -30,7 +30,7 @@ export const projects: projectType[] = [
     image: "/projects/evexa.png",
     gif: "/projects/evexa.mp4",
     year: "2026",
-    projectUrl: "https://evexa.com/",
+    projectUrl: "https://evexa.tech/",
     description:
       "Landing page design & development for EVEXA — a global AI and smart solutions company delivering intelligent platforms, enterprise-grade systems, and scalable digital transformation solutions.",
   },
@@ -275,25 +275,23 @@ export function Works() {
               {/* Project content */}
               <div className="flex flex-col items-start justify-start gap-4 pt-4 px-8 pb-10 text-start text-3xl text-pretty md:text-4xl lg:px-12 lg:text-5xl">
                 <div className="w-full mx-auto max-w-75 md:max-w-lg lg:max-w-xl border-border border-2 border-solid aspect-video">
-                  <div className="overflow-hidden">
-                    {isDialogPreviewVideo ? (
-                      <video
-                        src={dialogPreviewSrc}
-                        className="h-auto w-full object-cover"
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        preload="metadata"
-                      />
-                    ) : (
-                      <img
-                        src={dialogPreviewSrc}
-                        alt={`${projectDialogOpen.title} project preview`}
-                        className="h-auto w-full object-cover"
-                      />
-                    )}
-                  </div>
+                  {isDialogPreviewVideo ? (
+                    <video
+                      src={dialogPreviewSrc}
+                      className="h-auto w-full object-cover"
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      preload="metadata"
+                    />
+                  ) : (
+                    <img
+                      src={dialogPreviewSrc}
+                      alt={`${projectDialogOpen.title} project preview`}
+                      className="h-auto w-full object-cover"
+                    />
+                  )}
                 </div>
                 <p className="text-muted-foreground italic text-2xl md:text-3xl lg:text-4xl pt-2">
                   About this project

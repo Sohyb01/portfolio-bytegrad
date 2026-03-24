@@ -40,7 +40,7 @@ export function Hero() {
           }}
         >
           <p className="font-mono text-xs tracking-[0.3em] text-muted-foreground mb-2">
-            01 — LOGIC
+            01 — DISCIPLINE
           </p>
           <h2 className="font-sans text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-balance">
             FULLSTACK
