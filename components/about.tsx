@@ -37,9 +37,9 @@ export function About() {
 
       <div className="px-8 lg:px-12 text-pretty text-4xl md:text-6xl lg:text-7xl font-sans font-light tracking-tight text-white/90">
         <TextEffect per="char" as="p" className="">
-          I specialize in building effective websites & web apps using the most
-          modern tools. I&apos;m currently open to full time & project-based
-          opportunities.
+          I specialize in building effective websites & web apps using
+          cutting-edge tools. I&apos;m currently open to full time &
+          project-based opportunities.
         </TextEffect>
       </div>
 
