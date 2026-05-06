@@ -108,6 +108,14 @@ export function Footer() {
             >
               GitHub
             </a>
+            <a
+              href="https://x.com/minimumviableme"
+              target="_blank"
+              data-cursor-hover
+              className="font-mono text-xs tracking-widest text-muted-foreground hover:text-white transition-colors duration-300"
+            >
+              Twitter / X
+            </a>
           </div>
 
           {/* Copyright */}
