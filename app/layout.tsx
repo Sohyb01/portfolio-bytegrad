@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "S.I.M | Developer Portfolio",
+  title: "Sohyb Mansour | Developer Portfolio",
   description:
     "Fullstack Developer & Interface Designer crafting intelligent digital solutions",
 };
