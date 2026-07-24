@@ -109,7 +109,7 @@ export function Footer() {
               GitHub
             </a>
             <a
-              href="https://x.com/minimumviableme"
+              href="https://x.com/hoobiedesign"
               target="_blank"
               data-cursor-hover
               className="font-mono text-xs tracking-widest text-muted-foreground hover:text-white transition-colors duration-300"
